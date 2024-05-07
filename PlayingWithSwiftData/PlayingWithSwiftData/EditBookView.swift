@@ -137,8 +137,10 @@ struct EditBookView: View {
     }
 }
 
-//#Preview {
-//    NavigationStack {
-//        EditBookView()
-//    }
-//}
+#Preview {
+    let preview = PreviewContainer(Book.self)
+    return NavigationStack {
+        EditBookView(book: Book.sampleBooks[4])
+            .modelContainer(preview.container)
+    }
+}
