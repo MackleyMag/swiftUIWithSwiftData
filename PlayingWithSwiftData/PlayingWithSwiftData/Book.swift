@@ -15,9 +15,11 @@ class Book {
     var dateAdded: Date
     var dateStarted: Date
     var dateCompleted: Date
-    var summary: String
+    @Attribute(originalName: "summary")
+    var synopsis: String
     var rating: Int?
     var status: Status.RawValue
+    var recomendedBy: String?
     
     init(
         title: String,
@@ -27,16 +29,18 @@ class Book {
         dateCompleted: Date = Date.distantPast,
         summary: String = "",
         rating: Int? = nil,
-        status: Status = .onShelf
+        status: Status = .onShelf,
+        recomendedBy: String? = nil
     ) {
         self.title = title
         self.author = author
         self.dateAdded = dateAdded
         self.dateStarted = dateStarted
         self.dateCompleted = dateCompleted
-        self.summary = summary
+        self.synopsis = summary
         self.rating = rating
         self.status = status.rawValue
+        self.recomendedBy = recomendedBy
     }
     
     var icon: Image {
