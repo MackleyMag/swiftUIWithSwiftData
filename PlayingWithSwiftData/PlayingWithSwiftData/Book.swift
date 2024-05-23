@@ -19,7 +19,9 @@ class Book {
     var synopsis: String
     var rating: Int?
     var status: Status.RawValue
-    var recomendedBy: String?
+    var recomendedBy: String
+    @Relationship(deleteRule: .cascade)
+    var quotes: [Quote]?
     
     init(
         title: String,
@@ -27,17 +29,17 @@ class Book {
         dateAdded: Date = Date.now,
         dateStarted: Date = Date.distantPast,
         dateCompleted: Date = Date.distantPast,
-        summary: String = "",
+        synopsis: String = "",
         rating: Int? = nil,
         status: Status = .onShelf,
-        recomendedBy: String? = nil
+        recomendedBy: String = ""
     ) {
         self.title = title
         self.author = author
         self.dateAdded = dateAdded
         self.dateStarted = dateStarted
         self.dateCompleted = dateCompleted
-        self.synopsis = summary
+        self.synopsis = synopsis
         self.rating = rating
         self.status = status.rawValue
         self.recomendedBy = recomendedBy

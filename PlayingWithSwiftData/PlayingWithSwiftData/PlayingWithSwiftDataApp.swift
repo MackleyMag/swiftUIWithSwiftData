@@ -16,12 +16,12 @@ struct PlayingWithSwiftDataApp: App {
         WindowGroup {
             BookListView()
         }
-        .modelContainer(for: Book.self)
+        .modelContainer(container)
     }
     
     init() {
         let schema = Schema([Book.self])
-        let config = ModelConfiguration("MyBooks", schema: schema)
+        let config = ModelConfiguration("PlayingWithSwiftData", schema: schema)
         
         do {
             container = try ModelContainer(for: schema, configurations: config)
