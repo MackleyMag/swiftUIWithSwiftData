@@ -1,0 +1,139 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%lld Quotes" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Quote"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : "%lld Quotes"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Citação"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Citações"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Author" : {
+
+    },
+    "Back" : {
+
+    },
+    "Book Title" : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Create" : {
+
+    },
+    "Create genre" : {
+
+    },
+    "Create new Genre" : {
+
+    },
+    "Date Added" : {
+
+    },
+    "Date Completed" : {
+
+    },
+    "Date Started" : {
+
+    },
+    "Enter your first book" : {
+
+    },
+    "Filter on title or author" : {
+
+    },
+    "Genres" : {
+
+    },
+    "My Books" : {
+
+    },
+    "Name" : {
+
+    },
+    "New Book" : {
+
+    },
+    "New Genre" : {
+
+    },
+    "Page" : {
+
+    },
+    "page #" : {
+
+    },
+    "Page: %@" : {
+
+    },
+    "Quotes" : {
+
+    },
+    "Rating" : {
+
+    },
+    "Recomended By" : {
+
+    },
+    "Set the genre color" : {
+
+    },
+    "Sort by: %@" : {
+
+    },
+    "Status" : {
+
+    },
+    "Status " : {
+
+    },
+    "Synopsis" : {
+
+    },
+    "Update" : {
+
+    },
+    "You need to create some genres first." : {
+
+    }
+  },
+  "version" : "1.0"
+}

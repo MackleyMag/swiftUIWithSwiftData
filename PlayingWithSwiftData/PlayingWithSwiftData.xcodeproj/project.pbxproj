@@ -16,6 +16,7 @@
 		AE1A8E7F2BFEDB3700941C85 /* GenresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1A8E7E2BFEDB3700941C85 /* GenresView.swift */; };
 		AE1A8E812BFEDF2C00941C85 /* NewGenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1A8E802BFEDF2C00941C85 /* NewGenreView.swift */; };
 		AE1A8E832BFEE2FD00941C85 /* GenresStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1A8E822BFEE2FD00941C85 /* GenresStackView.swift */; };
+		AE1A8E852BFEE9CC00941C85 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AE1A8E842BFEE9CC00941C85 /* Localizable.xcstrings */; };
 		AE65BB012BEA9AB30070C280 /* PlayingWithSwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE65BB002BEA9AB30070C280 /* PlayingWithSwiftDataApp.swift */; };
 		AE65BB032BEA9AB30070C280 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE65BB022BEA9AB30070C280 /* BookListView.swift */; };
 		AE65BB052BEA9AB50070C280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE65BB042BEA9AB50070C280 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		AE1A8E7E2BFEDB3700941C85 /* GenresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresView.swift; sourceTree = "<group>"; };
 		AE1A8E802BFEDF2C00941C85 /* NewGenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGenreView.swift; sourceTree = "<group>"; };
 		AE1A8E822BFEE2FD00941C85 /* GenresStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresStackView.swift; sourceTree = "<group>"; };
+		AE1A8E842BFEE9CC00941C85 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		AE65BAFD2BEA9AB30070C280 /* PlayingWithSwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingWithSwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE65BB002BEA9AB30070C280 /* PlayingWithSwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingWithSwiftDataApp.swift; sourceTree = "<group>"; };
 		AE65BB022BEA9AB30070C280 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		AE65BAF42BEA9AB30070C280 = {
 			isa = PBXGroup;
 			children = (
+				AE1A8E842BFEE9CC00941C85 /* Localizable.xcstrings */,
 				AE65BAFF2BEA9AB30070C280 /* PlayingWithSwiftData */,
 				AE65BAFE2BEA9AB30070C280 /* Products */,
 			);
@@ -205,6 +208,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = AE65BAF42BEA9AB30070C280;
 			productRefGroup = AE65BAFE2BEA9AB30070C280 /* Products */;
@@ -223,6 +227,7 @@
 			files = (
 				AE65BB082BEA9AB50070C280 /* Preview Assets.xcassets in Resources */,
 				AE65BB052BEA9AB50070C280 /* Assets.xcassets in Resources */,
+				AE1A8E852BFEE9CC00941C85 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
